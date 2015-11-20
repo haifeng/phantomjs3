@@ -1,7 +1,7 @@
 require 'rails_helper'
 # require 'pry'
 
-RSpec.describe 'users', type: :feature, js: true do
+RSpec.fdescribe 'users', type: :feature, js: true do
   before do
     visit("/users")
   end
